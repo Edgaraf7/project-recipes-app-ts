@@ -1,0 +1,38 @@
+.recipesContainer {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-items: center;
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.cardContainer {
+  background-color: white;
+  border: 2px solid rgba(128, 128, 128, 0.993);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cardImage {
+  height: 200px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  width: 200px;
+}
+
+.cardName {
+  font-weight: 700;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.514);
+  text-decoration: none;
+}
+

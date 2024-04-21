@@ -1,0 +1,24 @@
+.buttonContainer {
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.filterButton {
+  align-items: center;
+  background-color: brown;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-weight: 700;
+  margin-right: 4px;
+  outline: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.filterButton:hover {
+  background-color: rgba(184, 77, 77, 0.541);
+}
